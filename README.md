@@ -1,12 +1,14 @@
-# Serenity/JS Jasmine Protractor Template
+# Serenity/JS Mocha Protractor Template
 
-[![Build Status](https://travis-ci.com/serenity-js/serenity-js-jasmine-protractor-template.svg?branch=master)](https://travis-ci.com/serenity-js/serenity-js-jasmine-protractor-template)
+[![Build Status](https://travis-ci.com/serenity-js/serenity-js-mocha-protractor-template.svg?branch=master)](https://travis-ci.com/serenity-js/serenity-js-mocha-protractor-template)
 
 Use this [template repository](https://help.github.com/en/articles/creating-a-repository-from-a-template)
-to get started with acceptance testing your web applications using [Serenity/JS](https://serenity-js.org), Jasmine and Protractor.
+to get started with acceptance testing your web applications using [Serenity/JS](https://serenity-js.org),
+[Mocha](https://mochajs.org/) and [Protractor](http://www.protractortest.org/).
 
-**NOTE:** This repository uses an alpha version of Serenity/JS, and while its code is stable and unlikely to undergo
-any major changes before the official release, the documentation hasn't been published yet.
+Learn more:
+- [Serenity/JS Website](https://serenity-js.org)
+- [Serenity/JS API Docs](https://serenity-js.org/modules)
 
 ## Prerequisites
 
@@ -34,4 +36,4 @@ Have feedback? Let me know on twitter: [@JanMolak](https://twitter.com/JanMolak)
 
 If you'd like to chat with fellow users of Serenity/JS, join us on [Gitter Chat](https://gitter.im/serenity-js/Lobby).
 
-And if Serenity/JS has made your life a little bit easier, please consider [sponsoring its ongoing development](https://github.com/sponsors/jan-molak) 🙇
+And if Serenity/JS has made your life a little bit easier, please consider [sponsoring its ongoing development](https://github.com/sponsors/serenity-js) 🙇

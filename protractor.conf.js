@@ -23,7 +23,7 @@ exports.config = {
     specs: [ './spec/*.spec.ts', ],
 
     serenity: {
-        runner: 'jasmine',
+        runner: 'mocha',
         crew: [
             ArtifactArchiver.storingArtifactsAt('./target/site/serenity'),
             ConsoleReporter.forDarkTerminals(),
@@ -41,9 +41,14 @@ exports.config = {
     //     browser.waitForAngularEnabled(false);
     // },
 
-    jasmineNodeOpts: {
-        requires: [ 'ts-node/register' ],
+    mochaOpts: {
+        require: [
+            'ts-node/register',
+        ],
+        timeout: 10000,
+        // retries: 2       // auto-retry failed tests up to n times
     },
+
 
     capabilities: {
         browserName: 'chrome',

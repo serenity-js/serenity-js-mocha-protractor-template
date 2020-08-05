@@ -1,4 +1,4 @@
-import 'jasmine';
+import 'mocha';
 
 import { Ensure, includes } from '@serenity-js/assertions';
 import { actorCalled, engage } from '@serenity-js/core';
@@ -10,7 +10,7 @@ describe('serenity-js.org website', () => {
     beforeEach(() => engage(new Actors()));
 
     it(`tells people what they're reading @wip`, () =>
-        actorCalled('Jasmine').attemptsTo(
+        actorCalled('Alice').attemptsTo(
             UseAngular.disableSynchronisation(),
             Navigate.to('https://serenity-js.org'),
             Ensure.that(Website.title(), includes('Serenity/JS')),
