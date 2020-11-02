@@ -1,6 +1,6 @@
 # Serenity/JS Mocha Protractor Template
 
-[![Build Status](https://travis-ci.com/serenity-js/serenity-js-mocha-protractor-template.svg?branch=master)](https://travis-ci.com/serenity-js/serenity-js-mocha-protractor-template)
+[![Build Status](https://github.com/serenity-js/serenity-js-mocha-protractor-template/workflows/build/badge.svg)](https://github.com/serenity-js/serenity-js-mocha-protractor-template/actions)
 
 Use this [template repository](https://help.github.com/en/articles/creating-a-repository-from-a-template)
 to get started with acceptance testing your web applications using [Serenity/JS](https://serenity-js.org),
