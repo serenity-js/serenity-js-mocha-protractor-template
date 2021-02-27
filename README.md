@@ -3,10 +3,11 @@
 [![Build Status](https://github.com/serenity-js/serenity-js-mocha-protractor-template/workflows/build/badge.svg)](https://github.com/serenity-js/serenity-js-mocha-protractor-template/actions)
 [![dependencies Status](https://status.david-dm.org/gh/serenity-js/serenity-js-mocha-protractor-template.svg)](https://david-dm.org/serenity-js/serenity-js-mocha-protractor-template)
 
-
 Use this [template repository](https://help.github.com/en/articles/creating-a-repository-from-a-template)
 to get started with acceptance testing your web applications using [Serenity/JS](https://serenity-js.org),
 [Mocha](https://mochajs.org/) and [Protractor](http://www.protractortest.org/).
+
+You might also want to have a look at the [Serenity BDD reports](https://serenity-js.github.io/serenity-js-mocha-protractor-template/) produced by this project.
 
 Learn more:
 - [Serenity/JS Website](https://serenity-js.org)
