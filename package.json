@@ -40,7 +40,7 @@
     "@serenity-js/protractor": "^2.24.1",
     "@serenity-js/rest": "^2.24.1",
     "@serenity-js/serenity-bdd": "^2.24.1",
-    "@types/mocha": "^8.2.0",
+    "@types/mocha": "^8.2.1",
     "@types/node": "^14.14.31",
     "chromedriver": "^88.0.0",
     "is-ci": "^3.0.0",
