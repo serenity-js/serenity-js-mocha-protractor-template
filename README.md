@@ -20,7 +20,7 @@ Learn more:
 >
 > ## Serenity/JS v3 is coming soon!
 >
-> The default [`main` branch](https://github.com/serenity-js/serenity-js-mocha-webdriverio-template/tree/main) of this Serenity/JS repository contains code for the upcoming Serenity/JS v3 release.
+> The default [`main` branch](https://github.com/serenity-js/serenity-js-mocha-protractor-template/tree/main) of this Serenity/JS repository contains code for the upcoming Serenity/JS v3 release.
 >
 > All the public Serenity/JS APIs are now stable and unlikely to change much before the final release. You're welcome to go through the [v3 migration guide](https://serenity-js.org/handbook/release-notes/serenity-js-3.html), experiment with the new version, and ask any questions you might have about the migration on the [Serenity/JS Community Gitter Chat](https://gitter.im/serenity-js/Lobby).
 >
@@ -32,7 +32,7 @@ Learn more:
 > And if you find Serenity/JS useful, learn how becoming a [GitHub Sponsor](https://github.com/sponsors/serenity-js) can help both you and this project!
 >
 > ## Where's Serenity/JS v2 codebase?
-> Check out the [`2.x` branch](https://github.com/serenity-js/serenity-js-mocha-webdriverio-template/tree/2.x)
+> Check out the [`2.x` branch](https://github.com/serenity-js/serenity-js-mocha-protractor-template/tree/2.x)
 
 ## Prerequisites
 
