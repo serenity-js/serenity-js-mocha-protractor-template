@@ -91,7 +91,6 @@ npm start               # starts a mini HTTP server and serves the test reports
                         # at http://localhost:8080
 ```
 
-
 ## Your feedback matters!
 
 Do you find Serenity/JS useful? [Give it a star](https://github.com/serenity-js/serenity-js)! &#9733;
