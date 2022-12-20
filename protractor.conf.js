@@ -1,8 +1,8 @@
 const
     { ArtifactArchiver } = require('@serenity-js/core'),
     { ConsoleReporter } = require('@serenity-js/console-reporter'),
-    { Photographer, TakePhotosOfFailures, TakePhotosOfInteractions } = require('@serenity-js/web'),
-    { SerenityBDDReporter } = require('@serenity-js/serenity-bdd');
+    { SerenityBDDReporter } = require('@serenity-js/serenity-bdd'),
+    { Photographer, TakePhotosOfInteractions } = require('@serenity-js/web');
 
 exports.config = {
     baseUrl: 'http://localhost:3000',
