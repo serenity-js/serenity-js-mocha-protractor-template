@@ -31,7 +31,6 @@ vscode:
   extensions:
     - dbaeumer.vscode-eslint
     - EditorConfig.EditorConfig
-    - luciannaie.protractor-test-runner
 
 github:
   prebuilds:

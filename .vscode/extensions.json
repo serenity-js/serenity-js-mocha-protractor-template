@@ -1,8 +1,7 @@
 {
   "recommendations": [
     "dbaeumer.vscode-eslint",
-    "EditorConfig.EditorConfig",
-    "luciannaie.protractor-test-runner"
+    "EditorConfig.EditorConfig"
   ],
   "unwantedRecommendations": []
 }
