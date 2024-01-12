@@ -1,9 +1,3 @@
-const
-    { ArtifactArchiver } = require('@serenity-js/core'),
-    { ConsoleReporter } = require('@serenity-js/console-reporter'),
-    { SerenityBDDReporter } = require('@serenity-js/serenity-bdd'),
-    { Photographer, TakePhotosOfInteractions } = require('@serenity-js/web');
-
 exports.config = {
     baseUrl: 'http://localhost:3000',
 
@@ -22,13 +16,18 @@ exports.config = {
     specs: [ './spec/*.spec.ts', ],
 
     serenity: {
+        // Use Jasmine test runner adapter
+        // see: https://serenity-js.org/api/mocha/
         runner: 'mocha',
+
+        // Configure reporting services
+        // see: https://serenity-js.org/handbook/reporting/
         crew: [
-            ArtifactArchiver.storingArtifactsAt('./target/site/serenity'),
-            ConsoleReporter.forDarkTerminals(),
-            Photographer.whoWill(TakePhotosOfInteractions),     // slower execution, more comprehensive reports
-            // Photographer.whoWill(TakePhotosOfFailures),      // fast execution, screenshots only when tests fail
-            new SerenityBDDReporter(),
+            '@serenity-js/console-reporter',
+            '@serenity-js/serenity-bdd',
+            [ '@serenity-js/web:Photographer',      { strategy: 'TakePhotosOfInteractions'    } ],
+            // [ '@serenity-js/web:Photographer',   { strategy: 'TakePhotosOfFailures'        } ],
+            [ '@serenity-js/core:ArtifactArchiver', { outputDirectory: 'target/site/serenity' } ],
         ]
     },
 
