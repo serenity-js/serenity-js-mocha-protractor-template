@@ -45,7 +45,7 @@
     "@serenity-js/rest": "^3.36.1",
     "@serenity-js/serenity-bdd": "^3.36.1",
     "protractor": "^7.0.0",
-    "mocha": "^10.8.2"
+    "mocha": "^11.7.5"
   },
   "devDependencies": {
     "@puppeteer/browsers": "^2.10.13",
