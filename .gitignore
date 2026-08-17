@@ -9,5 +9,5 @@ node_modules
 chrome
 chromedriver
 
-# Build artifacts
-target
+# Reports
+reports/
