@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-08-18T10:36:39.393Z",
+  "finishedAt": "2026-08-18T10:36:40.490Z",
+  "outcomes": {
+    "passed": 1,
+    "failed": 0,
+    "pending": 0,
+    "skipped": 0,
+    "compromised": 0,
+    "error": 0
+  },
+  "scenes": [
+    {
+      "name": "tells people what they're reading",
+      "category": "serenity-js website",
+      "outcome": {
+        "code": 64
+      },
+      "duration": 1097,
+      "startedAt": "2026-08-18T10:36:39.393Z",
+      "source": {
+        "path": "/__w/serenity-js-mocha-protractor-template/serenity-js-mocha-protractor-template/spec/serenity-js_website.spec.ts"
+      },
+      "tags": [
+        {
+          "type": "feature",
+          "name": "serenity-js website"
+        },
+        {
+          "type": "tag",
+          "name": "wip"
+        },
+        {
+          "type": "browser",
+          "name": "chrome 129.0.6668.100"
+        },
+        {
+          "type": "platform",
+          "name": "Linux"
+        },
+        {
+          "type": "module",
+          "name": "serenity-js-mocha-protractor-template"
+        }
+      ],
+      "activities": [
+        {
+          "type": "Interaction",
+          "name": "Alice disables synchronisation with Angular",
+          "outcome": {
+            "code": 64
+          },
+          "duration": 7,
+          "startedAt": "2026-08-18T10:36:39.413Z",
+          "children": [],
+          "location": {
+            "path": "/__w/serenity-js-mocha-protractor-template/serenity-js-mocha-protractor-template/spec/serenity-js_website.spec.ts",
+            "line": 12,
+            "column": 24
+          },
+          "artifacts": [
+            {
+              "path": "test-runs/4153/serenity-js-mocha-protractor-template-1/screenshot-linux-chrome-129-0-6668-100-alice-disables-synchronisation-with--9f32f42d7f.png",
+              "type": "screenshot"
+            }
+          ]
+        },
+        {
+          "type": "Interaction",
+          "name": "Alice navigates to \"https://serenity-js.org\"",
+          "outcome": {
+            "code": 64
+          },
+          "duration": 884,
+          "startedAt": "2026-08-18T10:36:39.451Z",
+          "children": [],
+          "location": {
+            "path": "/__w/serenity-js-mocha-protractor-template/serenity-js-mocha-protractor-template/spec/serenity-js_website.spec.ts",
+            "line": 13,
+            "column": 22
+          },
+          "artifacts": [
+            {
+              "path": "test-runs/4153/serenity-js-mocha-protractor-template-1/screenshot-linux-chrome-129-0-6668-100-alice-navigates-to--https---serenity-25cb083aa4.png",
+              "type": "screenshot"
+            }
+          ]
+        },
+        {
+          "type": "Interaction",
+          "name": "Alice ensures that <<current page>>.title() does include \"Serenity/JS\"",
+          "outcome": {
+            "code": 64
+          },
+          "duration": 8,
+          "startedAt": "2026-08-18T10:36:40.407Z",
+          "children": [],
+          "location": {
+            "path": "/__w/serenity-js-mocha-protractor-template/serenity-js-mocha-protractor-template/spec/serenity-js_website.spec.ts",
+            "line": 14,
+            "column": 20
+          },
+          "artifacts": [
+            {
+              "path": "test-runs/4153/serenity-js-mocha-protractor-template-1/screenshot-linux-chrome-129-0-6668-100-alice-ensures-that---current-page----25cb083aa4.png",
+              "type": "screenshot"
+            }
+          ]
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "test-runs/4153/serenity-js-mocha-protractor-template-1/screenshot-linux-chrome-129-0-6668-100-alice-disables-synchronisation-with--9f32f42d7f.png",
+          "type": "screenshot",
+          "activityId": "iiabyzcwfdannxkk0yhiq0rp"
+        },
+        {
+          "path": "test-runs/4153/serenity-js-mocha-protractor-template-1/screenshot-linux-chrome-129-0-6668-100-alice-navigates-to--https---serenity-25cb083aa4.png",
+          "type": "screenshot",
+          "activityId": "rz6xlbqj23i0vm71mjzwxud8"
+        },
+        {
+          "path": "test-runs/4153/serenity-js-mocha-protractor-template-1/screenshot-linux-chrome-129-0-6668-100-alice-ensures-that---current-page----25cb083aa4.png",
+          "type": "screenshot",
+          "activityId": "zantk9rhonagvj6pq8w8y1ek"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Alice",
+          "abilities": [
+            {
+              "name": "PerformActivities"
+            },
+            {
+              "name": "AnswerQuestions"
+            },
+            {
+              "name": "RaiseErrors"
+            },
+            {
+              "name": "ScheduleWork",
+              "details": "{\"scheduler\":{\"clock\":{\"timeAdjustment\":{\"milliseconds\":0}},\"interactionTimeout\":{\"milliseconds\":5000}}}"
+            },
+            {
+              "name": "BrowseTheWebWithProtractor"
+            },
+            {
+              "name": "TakeNotes",
+              "details": "{\"notepad\":{}}"
+            },
+            {
+              "name": "CallAnApi",
+              "details": "{\"baseURL\":\"http://localhost:3000\",\"headers\":{\"common\":{\"Accept\":\"application/json, text/plain, */*\"}},\"timeout\":10000}"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "type": "feature",
+      "name": "serenity-js website"
+    },
+    {
+      "type": "tag",
+      "name": "wip"
+    },
+    {
+      "type": "browser",
+      "name": "chrome 129.0.6668.100"
+    },
+    {
+      "type": "platform",
+      "name": "Linux"
+    },
+    {
+      "type": "module",
+      "name": "serenity-js-mocha-protractor-template"
+    }
+  ],
+  "testRunner": {
+    "name": "Mocha",
+    "version": "11.8.0"
+  },
+  "systemContext": {
+    "nodeVersion": "v24.19.0",
+    "os": {
+      "name": "linux",
+      "version": "6.17.0-1022-azure",
+      "arch": "x64"
+    },
+    "serenityVersion": "3.45.7",
+    "runtime": {
+      "provider": "GitHub Actions",
+      "buildNumber": "4153",
+      "branch": "main",
+      "commit": "b8debe092dbcf3c65e0907fe2590e7d5cb82bf1c",
+      "commitMessage": "codespaces: serve the report after it gets generated",
+      "commitAuthor": "Jan Molak",
+      "jobUrl": "https://github.com/serenity-js/serenity-js-mocha-protractor-template/actions/runs/32127498002",
+      "workflow": "build",
+      "repositoryUrl": "https://github.com/serenity-js/serenity-js-mocha-protractor-template",
+      "triggeredBy": "jan-molak"
+    },
+    "projectName": "acceptance-tests",
+    "packageManager": "npm"
+  },
+  "testRunId": "4153",
+  "moduleId": "serenity-js-mocha-protractor-template",
+  "attempt": 1
+}
