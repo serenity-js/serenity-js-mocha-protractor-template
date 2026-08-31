@@ -42,7 +42,7 @@
     "@serenity-js/rest": "^3.46.0",
     "@serenity-js/html-reporter": "^3.46.0",
     "protractor": "^7.0.0",
-    "mocha": "^11.8.0"
+    "mocha": "^12.0.0"
   },
   "devDependencies": {
     "@puppeteer/browsers": "^2.13.2",
