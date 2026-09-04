@@ -1,17 +1,17 @@
 {
   "$schema": "https://serenity-js.org/schemas/report-summary.json",
-  "generated": "2026-08-31T04:44:45.289Z",
+  "generated": "2026-09-04T17:40:51.428Z",
   "title": "acceptance-tests",
   "schemaVersion": 1,
   "reportUrl": "./index.html",
   "ci": {
-    "commit": "ec8cab5898d420a9389d724d1cbe33d62da0e8e7",
+    "commit": "6aa4e9d8d492851a45decb2432ae9f1565af2fda",
     "branch": "main",
-    "jobUrl": "https://github.com/serenity-js/serenity-js-mocha-protractor-template/actions/runs/33358095184"
+    "jobUrl": "https://github.com/serenity-js/serenity-js-mocha-protractor-template/actions/runs/33901729879"
   },
   "latestRun": {
-    "timestamp": "2026-08-31T04:44:44.551Z",
-    "label": "4176",
+    "timestamp": "2026-09-04T17:40:50.177Z",
+    "label": "4184",
     "totals": {
       "passed": 1,
       "failed": 0,
@@ -20,9 +20,9 @@
       "compromised": 0,
       "error": 0
     },
-    "duration": 713
+    "duration": 1228
   },
-  "runs": 13,
+  "runs": 14,
   "delta": {
     "passed": 0,
     "failed": 0,
@@ -48,7 +48,7 @@
     {
       "name": "tells people what they're reading",
       "source": "serenity-js_website.spec.ts",
-      "duration": 713
+      "duration": 1228
     }
   ]
 }
