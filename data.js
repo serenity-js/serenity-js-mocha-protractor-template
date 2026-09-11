@@ -11,9 +11,9 @@ window.__SERENITY_REPORT_DATA__ = {
       "compromised": 0,
       "error": 0
     },
-    "duration": 886,
-    "startedAt": "2026-09-10T09:41:50.115Z",
-    "finishedAt": "2026-09-10T09:41:51.001Z",
+    "duration": 1060,
+    "startedAt": "2026-09-11T00:18:29.218Z",
+    "finishedAt": "2026-09-11T00:18:30.278Z",
     "testRunner": "Mocha"
   },
   "scenarios": [
@@ -21,8 +21,8 @@ window.__SERENITY_REPORT_DATA__ = {
       "name": "tells people what they're reading",
       "category": "serenity-js website",
       "outcome": "SUCCESS",
-      "duration": 886,
-      "startedAt": "2026-09-10T09:41:50.115Z",
+      "duration": 1060,
+      "startedAt": "2026-09-11T00:18:29.218Z",
       "source": {
         "path": "/__w/serenity-js-mocha-protractor-template/serenity-js-mocha-protractor-template/spec/serenity-js_website.spec.ts"
       },
@@ -52,10 +52,10 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Alice disables synchronisation with Angular",
           "outcome": "SUCCESS",
-          "duration": 7,
+          "duration": 6,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-09-10T09:41:50.138Z",
+          "startedAt": "2026-09-11T00:18:29.239Z",
           "location": {
             "path": "/__w/serenity-js-mocha-protractor-template/serenity-js-mocha-protractor-template/spec/serenity-js_website.spec.ts",
             "line": 12,
@@ -63,7 +63,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/4196/serenity-js-mocha-protractor-template-1/screenshot-linux-chrome-129-0-6668-100-alice-disables-synchronisation-with--9f32f42d7f.png",
+              "path": "test-runs/4202/serenity-js-mocha-protractor-template-1/screenshot-linux-chrome-129-0-6668-100-alice-disables-synchronisation-with--9f32f42d7f.png",
               "type": "screenshot"
             }
           ]
@@ -71,10 +71,10 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Alice navigates to \"https://serenity-js.org\"",
           "outcome": "SUCCESS",
-          "duration": 680,
+          "duration": 865,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-09-10T09:41:50.187Z",
+          "startedAt": "2026-09-11T00:18:29.276Z",
           "location": {
             "path": "/__w/serenity-js-mocha-protractor-template/serenity-js-mocha-protractor-template/spec/serenity-js_website.spec.ts",
             "line": 13,
@@ -82,7 +82,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/4196/serenity-js-mocha-protractor-template-1/screenshot-linux-chrome-129-0-6668-100-alice-navigates-to--https---serenity-59c8d4a215.png",
+              "path": "test-runs/4202/serenity-js-mocha-protractor-template-1/screenshot-linux-chrome-129-0-6668-100-alice-navigates-to--https---serenity-59c8d4a215.png",
               "type": "screenshot"
             }
           ]
@@ -90,10 +90,10 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Alice ensures that <<current page>>.title() does include \"Serenity/JS\"",
           "outcome": "SUCCESS",
-          "duration": 9,
+          "duration": 11,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-09-10T09:41:50.928Z",
+          "startedAt": "2026-09-11T00:18:30.203Z",
           "location": {
             "path": "/__w/serenity-js-mocha-protractor-template/serenity-js-mocha-protractor-template/spec/serenity-js_website.spec.ts",
             "line": 14,
@@ -101,7 +101,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/4196/serenity-js-mocha-protractor-template-1/screenshot-linux-chrome-129-0-6668-100-alice-ensures-that---current-page----59c8d4a215.png",
+              "path": "test-runs/4202/serenity-js-mocha-protractor-template-1/screenshot-linux-chrome-129-0-6668-100-alice-ensures-that---current-page----59c8d4a215.png",
               "type": "screenshot"
             }
           ]
@@ -1147,6 +1147,71 @@ window.__SERENITY_REPORT_DATA__ = {
               ]
             }
           ]
+        },
+        {
+          "outcome": "SUCCESS",
+          "run": "4202",
+          "timestamp": "2026-09-11T00:18:29.218Z",
+          "duration": 1060,
+          "activities": [
+            {
+              "name": "Alice disables synchronisation with Angular",
+              "outcome": "SUCCESS",
+              "duration": 6,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-09-11T00:18:29.239Z",
+              "location": {
+                "path": "/__w/serenity-js-mocha-protractor-template/serenity-js-mocha-protractor-template/spec/serenity-js_website.spec.ts",
+                "line": 12,
+                "column": 24
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/4202/serenity-js-mocha-protractor-template-1/screenshot-linux-chrome-129-0-6668-100-alice-disables-synchronisation-with--9f32f42d7f.png",
+                  "type": "screenshot"
+                }
+              ]
+            },
+            {
+              "name": "Alice navigates to \"https://serenity-js.org\"",
+              "outcome": "SUCCESS",
+              "duration": 865,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-09-11T00:18:29.276Z",
+              "location": {
+                "path": "/__w/serenity-js-mocha-protractor-template/serenity-js-mocha-protractor-template/spec/serenity-js_website.spec.ts",
+                "line": 13,
+                "column": 22
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/4202/serenity-js-mocha-protractor-template-1/screenshot-linux-chrome-129-0-6668-100-alice-navigates-to--https---serenity-59c8d4a215.png",
+                  "type": "screenshot"
+                }
+              ]
+            },
+            {
+              "name": "Alice ensures that <<current page>>.title() does include \"Serenity/JS\"",
+              "outcome": "SUCCESS",
+              "duration": 11,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-09-11T00:18:30.203Z",
+              "location": {
+                "path": "/__w/serenity-js-mocha-protractor-template/serenity-js-mocha-protractor-template/spec/serenity-js_website.spec.ts",
+                "line": 14,
+                "column": 20
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/4202/serenity-js-mocha-protractor-template-1/screenshot-linux-chrome-129-0-6668-100-alice-ensures-that---current-page----59c8d4a215.png",
+                  "type": "screenshot"
+                }
+              ]
+            }
+          ]
         }
       ],
       "cast": [
@@ -1599,6 +1664,32 @@ window.__SERENITY_REPORT_DATA__ = {
         "consistency": 100,
         "completeness": 100
       }
+    },
+    {
+      "timestamp": "2026-09-11T00:18:29.218Z",
+      "duration": 1060,
+      "outcomes": {
+        "passed": 1,
+        "failed": 0,
+        "pending": 0,
+        "skipped": 0,
+        "compromised": 0,
+        "error": 0
+      },
+      "label": "4202",
+      "slowest": 1060,
+      "fastest": 1060,
+      "average": 1060,
+      "commit": "a43a18ff645fd8a24de158b8746a0fd66d0731df",
+      "branch": "main",
+      "ciJobUrl": "https://github.com/serenity-js/serenity-js-mocha-protractor-template/actions/runs/34545203618",
+      "repositoryUrl": "https://github.com/serenity-js/serenity-js-mocha-protractor-template",
+      "score": {
+        "confidence": 100,
+        "passRate": 100,
+        "consistency": 100,
+        "completeness": 100
+      }
     }
   ],
   "tags": [
@@ -1653,7 +1744,7 @@ window.__SERENITY_REPORT_DATA__ = {
       "version": "6.17.0-1022-azure",
       "arch": "x64"
     },
-    "serenityVersion": "3.47.0",
+    "serenityVersion": "3.47.2",
     "testRunner": {
       "name": "Mocha",
       "version": "11.8.0"
@@ -1666,12 +1757,12 @@ window.__SERENITY_REPORT_DATA__ = {
     ],
     "ci": {
       "provider": "GitHub Actions",
-      "buildNumber": "4196",
+      "buildNumber": "4202",
       "branch": "main",
-      "commit": "d40f49c14557753b24ecafbaaea1c96f60faefa3",
-      "commitMessage": "fix(deps): update serenity/js and playwright (#1156)",
+      "commit": "a43a18ff645fd8a24de158b8746a0fd66d0731df",
+      "commitMessage": "fix(deps): update serenity/js and playwright to ^3.47.2 (#1157)",
       "commitAuthor": "renovate[bot]",
-      "jobUrl": "https://github.com/serenity-js/serenity-js-mocha-protractor-template/actions/runs/34461951556",
+      "jobUrl": "https://github.com/serenity-js/serenity-js-mocha-protractor-template/actions/runs/34545203618",
       "workflow": "build",
       "repositoryUrl": "https://github.com/serenity-js/serenity-js-mocha-protractor-template",
       "triggeredBy": "renovate[bot]"
@@ -1709,6 +1800,7 @@ window.__SERENITY_REPORT_DATA__ = {
             "name": "tells people what they're reading",
             "outcome": "SUCCESS",
             "executionHistory": [
+              "SUCCESS",
               "SUCCESS",
               "SUCCESS",
               "SUCCESS",
